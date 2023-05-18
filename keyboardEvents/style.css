@@ -1,0 +1,27 @@
+#output {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+  }
+  
+  #output:focus-visible {
+    outline: 3px solid dodgerblue;
+  }
+  
+
+#testContainer{
+  font-weight: bold;
+}
+
+.notPressed{
+  transition: 1.1;
+  color: blue;
+}
+
+.testPressing{
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
